@@ -17,15 +17,17 @@ to enter this container later: 	docker start CONTAINERNAME
 COPY FILES FROM WINDOWS TO DOCKER: (all files within the folder are copied, not the folder)
 docker cp F:/#SJSU/AI/PROJECT/Training kind_fermat:/aiproject/Tests
 
-COPY FILES FROM DOCKER TO WINDOWS: 
+COPY FILES FROM DOCKER TO WINDOWS:
 docker cp kind_fermat:/aiproject/Tests F:/#SJSU/AI/PROJECT/Testing
 
 In docker, cd to / directory, then
 #: cd tensorflow
 #: git pull
-cd ens
+
 TRAINING:
+
 IMAGE_SIZE=224
+
 ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
 
 python tensorflow/tensorflow/examples/image_retraining/retrain.py \
