@@ -2,11 +2,15 @@
 Android Application using TensorFlow to detect common objects on the street.
 
 Install Docker Toolbox
+
 Open Docker QuickStart Terminal
-to create new docker container: docker run -it gcr.io/tensorflow/tensorflow:latest-devel
+
+To create new docker container: docker run -it gcr.io/tensorflow/tensorflow:latest-devel
+
 CHECK CONTAINER NAME:   docker ps -a
+
 to enter this container later: 	docker start CONTAINERNAME  
-				                        docker attach CONTAINERNAME
+				docker attach CONTAINERNAME
 
 //CONTAINERNAME = kind_fermat for this example
 
