@@ -10,7 +10,7 @@ To create a new docker container: `docker run -it gcr.io/tensorflow/tensorflow:l
 
 CHECK CONTAINER NAME: `docker ps -a`
 
-To enter this container later: 	`docker start CONTAINERNAME`
+To enter this container: 	`docker start CONTAINERNAME`
 				`docker attach CONTAINERNAME`
 
 CONTAINERNAME = kind_fermat for this example
