@@ -38,7 +38,7 @@ Android Application using TensorFlow to detect common objects on the street.
 ## Testing:  
 `python <script> <image_path> <label_file.txt> <graph_file.pb>`  
 - Example:   
-`python /aiproject/label_test.py  
-/aiproject/Testing/bench1.jpg  
-/aiproject/output_labels.txt  
+`python /aiproject/label_test.py   
+/aiproject/Testing/bench1.jpg   
+/aiproject/output_labels.txt   
 /aiproject/retrained_graph.pb`  
