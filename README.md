@@ -48,5 +48,5 @@
 ## Android  
 Once the model is trained, the retrained_graph.pb file and the labels.txt files should be linked to the android application. The detailed steps and the pertaining files can be found on [Shantanu's Github](https://github.com/shantanuspark/tensorflowMobilityAid), who was responsible for the android application developement.  
 
-## Download the Android App and related files   
-The trained model, training labels, training images, testing images, and the apk file can be accessed [here](https://drive.google.com/drive/folders/0B-rL_pZzer0zUUNyaVlfOUI4TlE?usp=sharing). 
+## Download the Android App   
+The apk file can be accessed [here](https://drive.google.com/drive/folders/0B-rL_pZzer0zUUNyaVlfOUI4TlE?usp=sharing). 
