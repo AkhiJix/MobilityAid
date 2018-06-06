@@ -1,0 +1,5 @@
+bench
+bike
+trash can
+newspaper vending machine
+people
