@@ -1,5 +1,7 @@
 # MobilityAid
-Android Application using TensorFlow to detect common objects on the street.  
+- Android Application using TensorFlow to detect common objects on the street.  
+- This project was developed as a part of the coursework _CS256-Topics in Artificial Intelligence_ under the supervision of Dr. Natalia Khuri at San Jose State University during Aug-Dec 2017.  
+- The team members include [Shantanu Deshmukh](https://github.com/shantanuspark) and [Saketh Saxena](https://github.com/sakethsaxena).  
 
 ## Instructions:  
 - Install Docker Toolbox  
@@ -42,3 +44,9 @@ Android Application using TensorFlow to detect common objects on the street.
 `/aiproject/Testing/bench1.jpg`   
 `/aiproject/output_labels.txt`   
 `/aiproject/retrained_graph.pb`  
+
+## Android  
+Once the model is trained, the retrained_graph.pb file and the labels.txt files should be linked to the android application. The detailed steps and the pertaining files can be found on [Shantanu's Github](https://github.com/shantanuspark/tensorflowMobilityAid), who was responsible for the android application developement.  
+
+## Download the Android App  
+The working apk file can be accessed [here](https://drive.google.com/open?id=1_JmpQYODa4h1RMM8Zt_EUF4Dhe4_L7XR). (Download size: 105 MB)
