@@ -1,4 +1,4 @@
-# MobilityAid
+# iNAVI - Intelligent Navigation Aid for the Visually Impaired
 - The objective is to create an Android Application to aid visually challenged people in navigation by detecting common obstacles on the street and notifying the user about the same.
 - This project was developed as a part of the coursework _CS256-Topics in Artificial Intelligence_ under the supervision of Dr. Natalia Khuri at San Jose State University during Aug-Dec 2017.  
 - The team members include [Shantanu Deshmukh](https://github.com/shantanuspark) and [Saketh Saxena](https://github.com/sakethsaxena).  
